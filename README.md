@@ -16,6 +16,28 @@ tocols, containerised infrastructures and distributed architectures, it has
 been possible to create a scalable system adaptable to the modern needs
 of smart cities.
 
+# Installation
+The “project” folder is divided into three subfolders. To make the system work, these steps must be followed.
+
+- Distribution of nodes
+Node 1: container orchestrator 
+Node 2: container controller
+Node 3: container database
+Node 4: container network (nginx)
+
+- VPN network configuration.
+Each node has its own IP address connected to the shared VPN network (overlay network). Depending on where you installed the reference container, change the IP address appropriately in the FlaskConfig.py and Database.py class files within the container folder files.
+
+- Install containers
+1. Open the terminal
+2. $: cd folderName
+3. $: docker compose up -d
+
+- Test the system from the terminal
+1. Open several terminals to simulate sensors and actuators (change folder name based on which device to connect to the system)
+2. $: cd Terminal/Sensor1
+3. $: python sensor.py
+
 # Credits
 - Allegra Davide Giuseppe
 - Miano Alberto
