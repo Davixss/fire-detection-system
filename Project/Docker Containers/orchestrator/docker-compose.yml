@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: orchestrator
+    ports:
+      - "5050:5000"
+    restart: always
+    volumes:
+      - ./app:/app

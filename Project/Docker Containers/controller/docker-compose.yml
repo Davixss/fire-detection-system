@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: controller
+    ports:
+      - "6060:5000"
+    restart: always
+    volumes:
+      - ./app:/app

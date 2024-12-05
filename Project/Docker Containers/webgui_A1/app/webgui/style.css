@@ -1,0 +1,108 @@
+@font-face {
+    font-family: raleway;
+    src: url(Raleway-Light.ttf);
+}
+  
+html, body {
+    margin: 0;
+    font-family: raleway;
+}
+  
+.today-card h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+.today-card p {
+    text-align: center;
+    margin: 0;
+    margin-top: 12px;
+}
+  
+.main-card, .today-card, .map-container {
+    background-color: #3ca6e1;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+.main-card > h1 {
+    color: white;
+}
+  .table-container {
+    display: flex;
+}
+.table-container .left, .table-container .right {
+    width: 50%;
+}
+  
+table {
+    width: 100%;
+}
+table td {
+    border: 2px solid white;
+    padding: 15px;
+    min-height: 250px;
+}
+table thead tr {
+    background-color: white;
+}
+table tbody tr {
+    background-color: #ffffff30;
+}
+table thead td {
+    text-align: center;
+    font-weight: bold;
+    color: #3ca6e1;
+}
+table tbody td {
+    font-size: 24px;
+}
+
+.map-container {
+    display: flex;
+}
+.map-container > .info {
+    width: 20%;
+    padding: 10px;
+}
+.map-container > .info > table td {
+    font-size: 14px;
+}
+.map-container > .info > table .img {
+    width: 30%;
+}
+.map-container > #map {
+    width: 80%;
+    margin: 10px;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+#btn-confirm {
+    padding: 15px 50px;
+    background-color: #d34646;
+    color: white;
+    border: 1.5px solid #880606;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.console > p {
+    text-align: left;
+    padding-left: 50px;
+    margin: 8px;
+}
+
+.log-red {
+    background-color: rgb(234, 90, 90);
+    color: white;
+    padding: 12px 0px;
+}
+
+#map-1 {
+    border-radius: 12px;
+}

@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: actuator_A1
+    ports:
+      - "8181:80" # Porta locale 8585 mappata alla porta 80 del container
+    volumes:
+      - ./app:/var/www/html # Monta i file locali nella directory del server web
+    restart: always
