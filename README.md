@@ -38,6 +38,17 @@ Each node has its own IP address connected to the shared VPN network (overlay ne
 2. $: cd Terminal/Sensor1
 3. $: python sensor.py
 
+<strong>PLEASE NOTE:</strong></br>
+It was not possible to upload the “model” folder within the Project/Raspberry/Sensor Fire Camera/ path because of the heavy file load. The model folder is the trained model of Machine Learning with SVM algorithm. It is recommended to download the full folder from the Google Drive made available below or train your own SVM model.
+<br><br>
+The files that must be present are:
+- scaler.joblib
+- svm_model.joblib
+- X_train.npy
+
+# Project Folder
+<a href="https://drive.google.com/drive/folders/1BsQhkn5JYtl5DHnSZOlqfL8Krp2Dj1vx?usp=sharing" target="_blank">Google Drive Folder</a>
+
 # Credits
 - Allegra Davide Giuseppe
 - Miano Alberto
