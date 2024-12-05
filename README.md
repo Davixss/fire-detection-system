@@ -20,10 +20,10 @@ of smart cities.
 The “project” folder is divided into three subfolders. To make the system work, these steps must be followed.
 
 - Distribution of nodes
-Node 1: container orchestrator 
-Node 2: container controller
-Node 3: container database
-Node 4: container network (nginx)
+<br/>Node 1: container orchestrator 
+<br/>Node 2: container controller
+<br/>Node 3: container database
+<br/>Node 4: container network (nginx)
 
 - VPN network configuration.
 Each node has its own IP address connected to the shared VPN network (overlay network). Depending on where you installed the reference container, change the IP address appropriately in the FlaskConfig.py and Database.py class files within the container folder files.
