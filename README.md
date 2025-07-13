@@ -1,5 +1,5 @@
 # fire-detection-system
-University of Messina A.Y. 2023/2024 | Distributed Systems Project | Prof: Antonio Puliafito
+University of Messina A.Y. 2023/2024 | Distributed Systems Project | Prof: Antonio Puliafito (antonio.puliafito@unime.it)
 
 # Overview
 In recent years, the rapid development of technologies for the Internet of
