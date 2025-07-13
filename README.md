@@ -1,7 +1,9 @@
 # fire-detection-system
 University of Messina (www.unime.it) <br>
 A.Y. 2023/2024 <br>
-Distributed Systems Project | Prof: Antonio Puliafito (antonio.puliafito@unime.it)
+Distributed Systems Project <br>
+Prof: Antonio Puliafito (antonio.puliafito@unime.it) <br><br>
+Fire detecting system using a distributed system approach using Docker, Machine Learning and Raspberry Pi camera
 
 # Overview
 In recent years, the rapid development of technologies for the Internet of
